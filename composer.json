@@ -32,6 +32,7 @@
         "drupal/auto_nodetitle": "^1.0",
         "drupal/bean": "^1.7",
         "drupal/blockreference": "^2.7",
+        "drupal/calendar": "^3.5",
         "drupal/composer_autoloader": "^1.0",
         "drupal/drupal": "^7.62",
         "drush/drush": "^8.0",
