@@ -37,8 +37,10 @@
         "drupal/captcha": "^1.6",
         "drupal/cer": "^3.0",
         "drupal/ckeditor": "^1.18",
+        "drupal/ckeditor_media": "^2.0",
         "drupal/composer_autoloader": "^1.0",
         "drupal/drupal": "^7.62",
+        "drupal/entity": "^1.9",
         "drush/drush": "^8.0",
         "symfony/filesystem": "~2.7|^3",
         "webflo/drupal-finder": "^1.0.0"
