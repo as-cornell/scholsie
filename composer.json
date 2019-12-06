@@ -64,6 +64,9 @@
         "drupal/field_collection_feeds": "^1.0",
         "drupal/field_group": "^1.6",
         "drupal/field_permissions": "^1.1",
+        "drupal/file_entity": "^2.27",
+        "drupal/filefield_paths": "^1.1",
+        "drupal/google_analytics": "^2.6",
         "drush/drush": "^8.0",
         "symfony/filesystem": "~2.7|^3",
         "webflo/drupal-finder": "^1.0.0"
