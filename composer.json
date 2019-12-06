@@ -58,6 +58,12 @@
         "drupal/fast_404": "^1.5",
         "drupal/features": "^2.11",
         "drupal/feed_import": "^3.4",
+        "drupal/feeds_tamper": "^1.2",
+        "drupal/feeds_xpathparser": "^1.1",
+        "drupal/fences": "^1.2",
+        "drupal/field_collection_feeds": "^1.0",
+        "drupal/field_group": "^1.6",
+        "drupal/field_permissions": "^1.1",
         "drush/drush": "^8.0",
         "symfony/filesystem": "~2.7|^3",
         "webflo/drupal-finder": "^1.0.0"

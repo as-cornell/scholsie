@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a003afbf7dba16c7d7cb7cfc65d70d5c",
+    "content-hash": "12d3bc1561fd77bdae13b86ffaf9687e",
     "packages": [
         {
             "name": "composer/installers",
@@ -3402,6 +3402,376 @@
             }
         },
         {
+            "name": "drupal/feeds_tamper",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/feeds_tamper.git",
+                "reference": "7.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/feeds_tamper-7.x-1.2.zip",
+                "reference": "7.x-1.2",
+                "shasum": "99a8036e894f2f8f7c0bbc999c462fd5979c9a93"
+            },
+            "require": {
+                "drupal/drupal": "~7.0",
+                "drupal/feeds": "*"
+            },
+            "require-dev": {
+                "drupal/feeds_ui": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.2",
+                    "datestamp": "1512894785",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Bobík",
+                    "homepage": "https://www.drupal.org/user/123612"
+                },
+                {
+                    "name": "MegaChriz",
+                    "homepage": "https://www.drupal.org/user/654114"
+                },
+                {
+                    "name": "franz",
+                    "homepage": "https://www.drupal.org/user/581844"
+                },
+                {
+                    "name": "mausolos",
+                    "homepage": "https://www.drupal.org/user/642118"
+                },
+                {
+                    "name": "twistor",
+                    "homepage": "https://www.drupal.org/user/473738"
+                }
+            ],
+            "description": "Modify feeds data before it gets saved.",
+            "homepage": "https://www.drupal.org/project/feeds_tamper",
+            "support": {
+                "source": "https://git.drupalcode.org/project/feeds_tamper"
+            }
+        },
+        {
+            "name": "drupal/feeds_xpathparser",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/feeds_xpathparser.git",
+                "reference": "7.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/feeds_xpathparser-7.x-1.1.zip",
+                "reference": "7.x-1.1",
+                "shasum": "10cc891728f175c6dfb39f392fc6319a1752eee5"
+            },
+            "require": {
+                "drupal/drupal": "~7.0",
+                "drupal/feeds": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.1",
+                    "datestamp": "1435895043",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "twistor",
+                    "homepage": "https://www.drupal.org/user/473738"
+                }
+            ],
+            "description": "Parse an XML or HTML document using XPath.",
+            "homepage": "https://www.drupal.org/project/feeds_xpathparser",
+            "support": {
+                "source": "https://git.drupalcode.org/project/feeds_xpathparser"
+            }
+        },
+        {
+            "name": "drupal/fences",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/fences.git",
+                "reference": "7.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/fences-7.x-1.2.zip",
+                "reference": "7.x-1.2",
+                "shasum": "2acd47404d19f84248f0b4c532e28acc83f1cadb"
+            },
+            "require": {
+                "drupal/drupal": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.2",
+                    "datestamp": "1443071039",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "CrashTest_",
+                    "homepage": "https://www.drupal.org/user/261457"
+                },
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                },
+                {
+                    "name": "gleroux02",
+                    "homepage": "https://www.drupal.org/user/282323"
+                },
+                {
+                    "name": "jensimmons",
+                    "homepage": "https://www.drupal.org/user/140882"
+                },
+                {
+                    "name": "stevector",
+                    "homepage": "https://www.drupal.org/user/179805"
+                }
+            ],
+            "description": "Configurable field wrappers",
+            "homepage": "https://www.drupal.org/project/fences",
+            "support": {
+                "source": "https://git.drupalcode.org/project/fences"
+            }
+        },
+        {
+            "name": "drupal/field_collection",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_collection.git",
+                "reference": "7.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_collection-7.x-1.1.zip",
+                "reference": "7.x-1.1",
+                "shasum": "40ac652c1b60f018ab6a5e5440856ea62e489a9c"
+            },
+            "require": {
+                "drupal/drupal": "~7.0",
+                "drupal/entity": "*"
+            },
+            "require-dev": {
+                "drupal/entity_translation": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.1",
+                    "datestamp": "1567537685",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "RenatoG",
+                    "homepage": "https://www.drupal.org/user/3326031"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "jmuzz",
+                    "homepage": "https://www.drupal.org/user/2607886"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                },
+                {
+                    "name": "nedjo",
+                    "homepage": "https://www.drupal.org/user/4481"
+                },
+                {
+                    "name": "ram4nd",
+                    "homepage": "https://www.drupal.org/user/601534"
+                }
+            ],
+            "description": "Provides a field collection field, to which any number of fields can be attached.",
+            "homepage": "https://www.drupal.org/project/field_collection",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_collection"
+            }
+        },
+        {
+            "name": "drupal/field_collection_feeds",
+            "version": "1.0.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_collection_feeds.git",
+                "reference": "7.x-1.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_collection_feeds-7.x-1.0-alpha4.zip",
+                "reference": "7.x-1.0-alpha4",
+                "shasum": "d088d1e2aeb14c1f8cdea2c01ced987e1ada35bd"
+            },
+            "require": {
+                "drupal/drupal": "~7.0",
+                "drupal/feeds": "*",
+                "drupal/field_collection": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.0-alpha4",
+                    "datestamp": "1478621683",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "SpartyDan",
+                    "homepage": "https://www.drupal.org/user/609056"
+                },
+                {
+                    "name": "g089h515r806",
+                    "homepage": "https://www.drupal.org/user/174740"
+                }
+            ],
+            "description": "Provides feeds integration for field collection.",
+            "homepage": "https://www.drupal.org/project/field_collection_feeds",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_collection_feeds"
+            }
+        },
+        {
+            "name": "drupal/field_group",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_group.git",
+                "reference": "7.x-1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_group-7.x-1.6.zip",
+                "reference": "7.x-1.6",
+                "shasum": "a1d4cb711d1f9869a058dfcf3fb051b47b45c599"
+            },
+            "require": {
+                "drupal/ctools": "*",
+                "drupal/drupal": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.6",
+                    "datestamp": "1509751984",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Hydra",
+                    "homepage": "https://www.drupal.org/user/647364"
+                },
+                {
+                    "name": "Stalski",
+                    "homepage": "https://www.drupal.org/user/322618"
+                },
+                {
+                    "name": "jyve",
+                    "homepage": "https://www.drupal.org/user/591438"
+                },
+                {
+                    "name": "swentel",
+                    "homepage": "https://www.drupal.org/user/107403"
+                },
+                {
+                    "name": "zuuperman",
+                    "homepage": "https://www.drupal.org/user/361625"
+                }
+            ],
+            "description": "Provides the ability to group your fields on both form and display.",
+            "homepage": "https://www.drupal.org/project/field_group",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_group"
+            }
+        },
+        {
             "name": "drupal/field_object",
             "version": "3.0.0-beta1",
             "require": {
@@ -3448,6 +3818,65 @@
             "homepage": "https://www.drupal.org/project/cer",
             "support": {
                 "source": "https://git.drupalcode.org/project/cer"
+            }
+        },
+        {
+            "name": "drupal/field_permissions",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_permissions.git",
+                "reference": "7.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_permissions-7.x-1.1.zip",
+                "reference": "7.x-1.1",
+                "shasum": "1b85e4515254911710f899e10b38a010f4d305d4"
+            },
+            "require": {
+                "drupal/drupal": "~7.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.1",
+                    "datestamp": "1570136286",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "RobLoach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                },
+                {
+                    "name": "jhedstrom",
+                    "homepage": "https://www.drupal.org/user/208732"
+                },
+                {
+                    "name": "mariacha1",
+                    "homepage": "https://www.drupal.org/user/2210776"
+                },
+                {
+                    "name": "markus_petrux",
+                    "homepage": "https://www.drupal.org/user/39593"
+                }
+            ],
+            "description": "Set field-level permissions to create, update or view fields.",
+            "homepage": "https://www.drupal.org/project/field_permissions",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_permissions"
             }
         },
         {
