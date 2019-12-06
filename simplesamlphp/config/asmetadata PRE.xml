@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://as.cornell.edu/">
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFDzCCA/egAwIBAgIJALSv9MU+EEmiMA0GCSqGSIb3DQEBBQUAMIG1MQswCQYDVQQGEwJVUzERMA8GA1UECBMITmV3IFlvcmsxDzANBgNVBAcTBkl0aGFjYTEbMBkGA1UEChMSQ29ybmVsbCBVbml2ZXJzaXR5MSUwIwYDVQQLExxDb2xsZWdlIG9mIEFydHMgYW5kIFNjaWVuY2VzMRwwGgYDVQQDExNwcm9kLmFzLmNvcm5lbGwuZWR1MSAwHgYJKoZIhvcNAQkBFhFtZXc3MkBjb3JuZWxsLmVkdTAeFw0xNTAyMjUxNzUzNTVaFw0yNTAyMjQxNzUzNTVaMIG1MQswCQYDVQQGEwJVUzERMA8GA1UECBMITmV3IFlvcmsxDzANBgNVBAcTBkl0aGFjYTEbMBkGA1UEChMSQ29ybmVsbCBVbml2ZXJzaXR5MSUwIwYDVQQLExxDb2xsZWdlIG9mIEFydHMgYW5kIFNjaWVuY2VzMRwwGgYDVQQDExNwcm9kLmFzLmNvcm5lbGwuZWR1MSAwHgYJKoZIhvcNAQkBFhFtZXc3MkBjb3JuZWxsLmVkdTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOiRMkXryWLUVRf+guvgsDA0Mn8O248/xgxA4QHnlIyI1eqluOZgRbAWj/h+B9+scFYdeYkWNOk1rTs3d//HiKGR4EraaJAZe0eejTsgJAOX0BKNCQQMIKB1RDdlPTz+GrF7po3fHZ2nn/u94ykb2Q30LQwGw44A4gde1GIChQd+2ZbjjtYwVP0BufRCvGm0mqiU74TWN/ZZnlCibvIHhU1Q+vhoGoU6Uf/IdYwFvNC1DGmCyU6cZ7PY8BfleS7+bszWuRe6DulX08TVUSCyx1fm6PJ815273h6IB8QmBJZyLTud3/Pt3qBYCDCyZGu/ldLETzC1wFEUdlqQNQkonHUCAwEAAaOCAR4wggEaMB0GA1UdDgQWBBTRv38foRAvQu9XWL4+spIkxfUNrTCB6gYDVR0jBIHiMIHfgBTRv38foRAvQu9XWL4+spIkxfUNraGBu6SBuDCBtTELMAkGA1UEBhMCVVMxETAPBgNVBAgTCE5ldyBZb3JrMQ8wDQYDVQQHEwZJdGhhY2ExGzAZBgNVBAoTEkNvcm5lbGwgVW5pdmVyc2l0eTElMCMGA1UECxMcQ29sbGVnZSBvZiBBcnRzIGFuZCBTY2llbmNlczEcMBoGA1UEAxMTcHJvZC5hcy5jb3JuZWxsLmVkdTEgMB4GCSqGSIb3DQEJARYRbWV3NzJAY29ybmVsbC5lZHWCCQC0r/TFPhBJojAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQBpC3Fqataxoh+3UOrWhfz/JqjsRCuPCZm4GUrjVZmLidqUXMvezQWL1COlD7ABkzWWnj4GIR2+0SgeE9XjupBURdvzIcK4aMcy+45i/Ji9LeooWGHVG2624sR7Ca3bCck5p97vw+WHc94ObLsUalXuy54pF04yvZe5ANgveoZUu7uLporNeL9Rf861DniWGq2ZVJ/8J6fx0TERt+Dge+hwMEVibL8TxEu8uDUctRjdHxPCJPkcqA8tp6TetvquzZlhyOX7dMTJGj/j/bnlAJB3OQjTasG8gidu3KLcIP0SeEBJUcQI2fdbXq9oNYZ0QNfUQPkG38Hi/3GohxjeM22i</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFDzCCA/egAwIBAgIJALSv9MU+EEmiMA0GCSqGSIb3DQEBBQUAMIG1MQswCQYDVQQGEwJVUzERMA8GA1UECBMITmV3IFlvcmsxDzANBgNVBAcTBkl0aGFjYTEbMBkGA1UEChMSQ29ybmVsbCBVbml2ZXJzaXR5MSUwIwYDVQQLExxDb2xsZWdlIG9mIEFydHMgYW5kIFNjaWVuY2VzMRwwGgYDVQQDExNwcm9kLmFzLmNvcm5lbGwuZWR1MSAwHgYJKoZIhvcNAQkBFhFtZXc3MkBjb3JuZWxsLmVkdTAeFw0xNTAyMjUxNzUzNTVaFw0yNTAyMjQxNzUzNTVaMIG1MQswCQYDVQQGEwJVUzERMA8GA1UECBMITmV3IFlvcmsxDzANBgNVBAcTBkl0aGFjYTEbMBkGA1UEChMSQ29ybmVsbCBVbml2ZXJzaXR5MSUwIwYDVQQLExxDb2xsZWdlIG9mIEFydHMgYW5kIFNjaWVuY2VzMRwwGgYDVQQDExNwcm9kLmFzLmNvcm5lbGwuZWR1MSAwHgYJKoZIhvcNAQkBFhFtZXc3MkBjb3JuZWxsLmVkdTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOiRMkXryWLUVRf+guvgsDA0Mn8O248/xgxA4QHnlIyI1eqluOZgRbAWj/h+B9+scFYdeYkWNOk1rTs3d//HiKGR4EraaJAZe0eejTsgJAOX0BKNCQQMIKB1RDdlPTz+GrF7po3fHZ2nn/u94ykb2Q30LQwGw44A4gde1GIChQd+2ZbjjtYwVP0BufRCvGm0mqiU74TWN/ZZnlCibvIHhU1Q+vhoGoU6Uf/IdYwFvNC1DGmCyU6cZ7PY8BfleS7+bszWuRe6DulX08TVUSCyx1fm6PJ815273h6IB8QmBJZyLTud3/Pt3qBYCDCyZGu/ldLETzC1wFEUdlqQNQkonHUCAwEAAaOCAR4wggEaMB0GA1UdDgQWBBTRv38foRAvQu9XWL4+spIkxfUNrTCB6gYDVR0jBIHiMIHfgBTRv38foRAvQu9XWL4+spIkxfUNraGBu6SBuDCBtTELMAkGA1UEBhMCVVMxETAPBgNVBAgTCE5ldyBZb3JrMQ8wDQYDVQQHEwZJdGhhY2ExGzAZBgNVBAoTEkNvcm5lbGwgVW5pdmVyc2l0eTElMCMGA1UECxMcQ29sbGVnZSBvZiBBcnRzIGFuZCBTY2llbmNlczEcMBoGA1UEAxMTcHJvZC5hcy5jb3JuZWxsLmVkdTEgMB4GCSqGSIb3DQEJARYRbWV3NzJAY29ybmVsbC5lZHWCCQC0r/TFPhBJojAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQBpC3Fqataxoh+3UOrWhfz/JqjsRCuPCZm4GUrjVZmLidqUXMvezQWL1COlD7ABkzWWnj4GIR2+0SgeE9XjupBURdvzIcK4aMcy+45i/Ji9LeooWGHVG2624sR7Ca3bCck5p97vw+WHc94ObLsUalXuy54pF04yvZe5ANgveoZUu7uLporNeL9Rf861DniWGq2ZVJ/8J6fx0TERt+Dge+hwMEVibL8TxEu8uDUctRjdHxPCJPkcqA8tp6TetvquzZlhyOX7dMTJGj/j/bnlAJB3OQjTasG8gidu3KLcIP0SeEBJUcQI2fdbXq9oNYZ0QNfUQPkG38Hi/3GohxjeM22i</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://as.cornell.edu/simplesaml/module.php/saml/sp/saml2-logout.php/as-sp"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://as.cornell.edu/simplesaml/module.php/saml/sp/saml2-logout.php/as-sp"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://as.cornell.edu/simplesaml/module.php/saml/sp/saml2-acs.php/as-sp" index="0"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://as.cornell.edu/simplesaml/module.php/saml/sp/saml1-acs.php/as-sp" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://as.cornell.edu/simplesaml/module.php/saml/sp/saml2-acs.php/as-sp" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://as.cornell.edu/simplesaml/module.php/saml/sp/saml1-acs.php/as-sp/artifact" index="3"/>
+  </md:SPSSODescriptor>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Mark</md:GivenName>
+    <md:SurName>Wilson</md:SurName>
+    <md:EmailAddress>mew72@cornell.edu</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
