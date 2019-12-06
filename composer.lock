@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b986fc8581634b27109087c4f4f01fb",
+    "content-hash": "4ff3a7c5f983793b5c44dc761da64d91",
     "packages": [
         {
             "name": "composer/installers",
@@ -2322,6 +2322,89 @@
             }
         },
         {
+            "name": "drupal/drupagram",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/drupagram.git",
+                "reference": "7.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/drupagram-7.x-1.3.zip",
+                "reference": "7.x-1.3",
+                "shasum": "c8adb6cbbf35bbfeba106789cb9958d70f0cc502"
+            },
+            "require": {
+                "drupal/drupal": "~7.0",
+                "drupal/oauth_common": "*"
+            },
+            "require-dev": {
+                "drupal/oauth_common": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.3",
+                    "datestamp": "1492120442",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Korte",
+                    "homepage": "https://www.drupal.org/user/453668"
+                },
+                {
+                    "name": "LSU_JBob",
+                    "homepage": "https://www.drupal.org/user/796550"
+                },
+                {
+                    "name": "asifnoor",
+                    "homepage": "https://www.drupal.org/user/115278"
+                },
+                {
+                    "name": "csevb10",
+                    "homepage": "https://www.drupal.org/user/63155"
+                },
+                {
+                    "name": "frichman",
+                    "homepage": "https://www.drupal.org/user/1864370"
+                },
+                {
+                    "name": "gpbarga",
+                    "homepage": "https://www.drupal.org/user/3458435"
+                },
+                {
+                    "name": "katris",
+                    "homepage": "https://www.drupal.org/user/119402"
+                },
+                {
+                    "name": "rmontero",
+                    "homepage": "https://www.drupal.org/user/191552"
+                },
+                {
+                    "name": "zroger",
+                    "homepage": "https://www.drupal.org/user/67977"
+                }
+            ],
+            "description": "Adds integration with the Instagram photo exchange service.",
+            "homepage": "https://www.drupal.org/project/drupagram",
+            "support": {
+                "source": "https://git.drupalcode.org/project/drupagram"
+            }
+        },
+        {
             "name": "drupal/drupal",
             "version": "7.68.0",
             "source": {
@@ -2433,6 +2516,144 @@
             }
         },
         {
+            "name": "drupal/editablefields",
+            "version": "1.0.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/editablefields.git",
+                "reference": "7.x-1.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/editablefields-7.x-1.0-alpha4.zip",
+                "reference": "7.x-1.0-alpha4",
+                "shasum": "4b941d6fec00aa62af305a78437249ea75a141be"
+            },
+            "require": {
+                "drupal/drupal": "~7.0",
+                "drupal/entity": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.0-alpha4",
+                    "datestamp": "1553290684",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Damien Tournoud",
+                    "homepage": "https://www.drupal.org/user/22211"
+                },
+                {
+                    "name": "Island Usurper",
+                    "homepage": "https://www.drupal.org/user/86683"
+                },
+                {
+                    "name": "Jan van Diepen",
+                    "homepage": "https://www.drupal.org/user/195578"
+                },
+                {
+                    "name": "andreiashu",
+                    "homepage": "https://www.drupal.org/user/212904"
+                },
+                {
+                    "name": "bengtan",
+                    "homepage": "https://www.drupal.org/user/132729"
+                },
+                {
+                    "name": "dags",
+                    "homepage": "https://www.drupal.org/user/1248930"
+                },
+                {
+                    "name": "joelpittet",
+                    "homepage": "https://www.drupal.org/user/160302"
+                },
+                {
+                    "name": "krlucas",
+                    "homepage": "https://www.drupal.org/user/271780"
+                },
+                {
+                    "name": "markfoodyburton",
+                    "homepage": "https://www.drupal.org/user/114447"
+                },
+                {
+                    "name": "vishun",
+                    "homepage": "https://www.drupal.org/user/199418"
+                }
+            ],
+            "description": "Allows you to make some fields editable from the display.",
+            "homepage": "https://www.drupal.org/project/editablefields",
+            "support": {
+                "source": "https://git.drupalcode.org/project/editablefields"
+            }
+        },
+        {
+            "name": "drupal/editableviews",
+            "version": "1.0.0-beta10",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/editableviews.git",
+                "reference": "7.x-1.0-beta10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/editableviews-7.x-1.0-beta10.zip",
+                "reference": "7.x-1.0-beta10",
+                "shasum": "87b4fedfcd2595021ea89f8afb839ca1808af3df"
+            },
+            "require": {
+                "drupal/ctools": "*",
+                "drupal/drupal": "*",
+                "drupal/entity": "*",
+                "drupal/views": "*"
+            },
+            "require-dev": {
+                "drupal/entityreference": "*",
+                "drupal/features": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.0-beta10",
+                    "datestamp": "1438114139",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "joachim",
+                    "homepage": "https://www.drupal.org/user/107701"
+                }
+            ],
+            "description": "Allows entity data in a view to be edited.",
+            "homepage": "https://www.drupal.org/project/editableviews",
+            "support": {
+                "source": "https://git.drupalcode.org/project/editableviews"
+            }
+        },
+        {
             "name": "drupal/elements",
             "version": "1.5.0",
             "source": {
@@ -2481,6 +2702,57 @@
             "homepage": "https://www.drupal.org/project/elements",
             "support": {
                 "source": "https://git.drupalcode.org/project/elements"
+            }
+        },
+        {
+            "name": "drupal/email",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/email.git",
+                "reference": "7.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/email-7.x-1.3.zip",
+                "reference": "7.x-1.3",
+                "shasum": "52177231c67a64b7c173a2760a5434bf7018c51a"
+            },
+            "require": {
+                "drupal/drupal": "~7.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.3",
+                    "datestamp": "1397134152",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "RobLoach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                },
+                {
+                    "name": "mh86",
+                    "homepage": "https://www.drupal.org/user/59747"
+                }
+            ],
+            "description": "Defines an email field type.",
+            "homepage": "https://www.drupal.org/project/email",
+            "support": {
+                "source": "https://git.drupalcode.org/project/email"
             }
         },
         {
@@ -2982,6 +3254,92 @@
             "homepage": "https://www.drupal.org/project/media",
             "support": {
                 "source": "https://git.drupalcode.org/project/media"
+            }
+        },
+        {
+            "name": "drupal/oauth",
+            "version": "3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/oauth.git",
+                "reference": "7.x-3.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/oauth-7.x-3.4.zip",
+                "reference": "7.x-3.4",
+                "shasum": "fba8910d1b63273dea3962e712ccf885e2604b0c"
+            },
+            "require": {
+                "drupal/drupal": "~7.0"
+            },
+            "require-dev": {
+                "drupal/oauth_common": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-3.4",
+                    "datestamp": "1486359786",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "juampynr",
+                    "homepage": "https://www.drupal.org/user/682736"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/oauth",
+            "support": {
+                "source": "https://git.drupalcode.org/project/oauth"
+            }
+        },
+        {
+            "name": "drupal/oauth_common",
+            "version": "3.4.0",
+            "require": {
+                "drupal/drupal": "~7.0",
+                "drupal/oauth": "self.version"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-3.4",
+                    "datestamp": "1486359786",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "juampynr",
+                    "homepage": "https://www.drupal.org/user/682736"
+                }
+            ],
+            "description": "Provides OAuth functionality",
+            "homepage": "https://www.drupal.org/project/oauth",
+            "support": {
+                "source": "https://git.drupalcode.org/project/oauth"
             }
         },
         {
