@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62369d789c3c97e93e417ebccef9ccc6",
+    "content-hash": "ea2079a11952d241e80239c492eea3e4",
     "packages": [
         {
             "name": "composer/installers",
@@ -631,6 +631,91 @@
             "homepage": "https://www.drupal.org/project/admin_views",
             "support": {
                 "source": "https://git.drupalcode.org/project/admin_views"
+            }
+        },
+        {
+            "name": "drupal/authcache",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/authcache.git",
+                "reference": "7.x-2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/authcache-7.x-2.3.zip",
+                "reference": "7.x-2.3",
+                "shasum": "67d425d0c52b855534c68de5cb76dca4084a038c"
+            },
+            "require": {
+                "drupal/drupal": "~7.0"
+            },
+            "require-dev": {
+                "drupal/authcache_builtin": "*",
+                "drupal/authcache_comment": "*",
+                "drupal/authcache_enum": "*",
+                "drupal/authcache_p13n": "*",
+                "drupal/authcache_page_manager": "*",
+                "drupal/authcache_panels": "*",
+                "drupal/authcache_user": "*",
+                "drupal/cacheobject": "*",
+                "drupal/commerce": "*",
+                "drupal/commerce_cart": "*",
+                "drupal/entity": "*",
+                "drupal/expire": "~1.0",
+                "drupal/feeds": "*",
+                "drupal/flag": "~3.0",
+                "drupal/page_manager": "*",
+                "drupal/panels": "*",
+                "drupal/relation_entity_collector": "*",
+                "drupal/uc_product": "*",
+                "drupal/views": "*",
+                "drupal/votingapi": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-2.3",
+                    "datestamp": "1550676784",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jonah Ellison",
+                    "homepage": "https://www.drupal.org/user/217669"
+                },
+                {
+                    "name": "czigor",
+                    "homepage": "https://www.drupal.org/user/826222"
+                },
+                {
+                    "name": "das-peter",
+                    "homepage": "https://www.drupal.org/user/762870"
+                },
+                {
+                    "name": "simg",
+                    "homepage": "https://www.drupal.org/user/620692"
+                },
+                {
+                    "name": "znerol",
+                    "homepage": "https://www.drupal.org/user/63999"
+                }
+            ],
+            "description": "Authenticated User Page Caching for logged-in and anonymous users.",
+            "homepage": "https://www.drupal.org/project/authcache",
+            "support": {
+                "source": "https://git.drupalcode.org/project/authcache"
             }
         },
         {
