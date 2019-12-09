@@ -33,6 +33,7 @@
         "drupal/auto_nodetitle": "^1.0",
         "drupal/bean": "^1.7",
         "drupal/blockreference": "^2.7",
+        "drupal/breakpoints": "^1.6",
         "drupal/cacheexclude": "^2.3",
         "drupal/calendar": "^3.5",
         "drupal/captcha": "^1.6",
