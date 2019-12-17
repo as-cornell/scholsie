@@ -4,6 +4,7 @@ drush rsync @artscicornell.prod.as:%files/ ~/Sites/drupal-vm-cd/sites/scholsie/w
 drush @artscicornell.prod.as sql:dump > ~/Sites/drupal-vm-cd/sites/scholsie/web/asacquia.sql -y
 drush @drupalvm.scholsie.as sql-drop -y
 drush @drupalvm.scholsie.as sql-cli < ~/Sites/drupal-vm-cd/sites/scholsie/web/asacquia.sql
+drush @drupalvm.scholsie.dept updb -y
 drush @drupalvm.scholsie.as dis securepages -y
 drush @drupalvm.scholsie.as vset --yes file_public_path 'sites/default/files'
 drush @drupalvm.scholsie.as vset --yes file_private_path 'sites/default/files/private'
