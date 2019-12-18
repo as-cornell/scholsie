@@ -249,7 +249,7 @@ $databases = array (
   array (
     'default' =>
     array (
-      'database' => 'scholsiedept',
+      'database' => 'scholsiedept1',
       'username' => 'drupal',
       'password' => 'drupal',
       'host' => 'localhost',

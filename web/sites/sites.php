@@ -54,4 +54,5 @@
  * @see http://drupal.org/documentation/install/multi-site
  */
 $sites['scholsie.as.fellaini.local'] = 'default';
-$sites['scholsie.dept.fellaini.local'] = 'dept';
+$sites['scholsie.dept1.fellaini.local'] = 'dept1';
+$sites['scholsie.dept2.fellaini.local'] = 'dept2';
