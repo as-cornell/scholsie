@@ -93,6 +93,7 @@
         "drupal/plupload": "^1.7",
         "drupal/recaptcha": "^2.3",
         "drupal/redirect": "^1.0",
+        "drupal/registry_rebuild": "^2.5",
         "drupal/robotstxt": "^1.4",
         "drupal/seckit": "^1.11",
         "drupal/securepages": "^1.0",
